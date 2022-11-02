@@ -12,8 +12,15 @@
 .menu__item {
   margin-right: 40px;
 }
+
 .menu__item:last-of-type {
   margin: 0;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #000;
+  /* cursor: pointer; */
 }
 
 .complain {

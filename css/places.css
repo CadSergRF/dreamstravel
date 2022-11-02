@@ -3,22 +3,25 @@
 }
 
 .place {
+  background-color: #f2f2f2;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
-  grid-template-areas: 
-  "place-image place-text";
+  grid-template-areas:
+    "place-image place-text";
 }
 
 .place:nth-of-type(2) {
-  grid-template-areas: 
-  "place-text place-image";
+  grid-template-areas:
+    "place-text place-image";
 }
 
 .place__image {
   width: 100%;
   height: 41vw;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   grid-area: place-image;
 }
 

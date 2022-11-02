@@ -21,5 +21,6 @@
   height: 30vw;
   align-self: center;
   justify-self: center;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }

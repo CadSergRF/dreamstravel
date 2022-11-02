@@ -3,20 +3,24 @@
   margin: 0 auto;
   padding: 11vw 0 10vw;
 }
+
 .quotes__title {
   max-width: 430px;
   font-size: 36px;
   font-weight: 600;
   margin: 0 0 10vw;
 }
+
 .quotes-block {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 75px;
 }
+
 .quote {
   margin: 0;
 }
+
 .quote__autor {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -28,6 +32,7 @@
   margin: 0 0 33px;
 
 }
+
 .quote__text {
   margin: 0;
   font-size: 14px;
