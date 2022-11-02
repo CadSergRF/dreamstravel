@@ -1,0 +1,25 @@
+.intro {
+  height: calc(100vh - 73px);
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.intro__text {
+  width: 100%;
+  align-self: center;
+}
+
+.intro__text-header {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.intro__image {
+  width: 30vw;
+  height: 30vw;
+  align-self: center;
+  justify-self: center;
+  object-fit: cover;
+}

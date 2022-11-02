@@ -1,0 +1,53 @@
+.places {
+  width: 100%;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: min-content;
+  grid-template-areas: 
+  "place-image place-text";
+}
+
+.place:nth-of-type(2) {
+  grid-template-areas: 
+  "place-text place-image";
+}
+
+.place__image {
+  width: 100%;
+  height: 41vw;
+  object-fit: cover;
+  grid-area: place-image;
+}
+
+.place__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-area: place-text;
+  padding: 5vw 5vw 6.5vw;
+}
+
+.place__title {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.place__paragraph {
+  width: 32vw;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.place__paragraph-text {
+  margin: 0 0 30px;
+}
+
+.place__paragraph-text:last-of-type {
+  margin: 0;
+}

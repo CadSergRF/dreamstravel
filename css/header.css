@@ -1,0 +1,22 @@
+.header {
+  padding: 55px 0 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 40px;
+}
+.menu__item:last-of-type {
+  margin: 0;
+}
+
+.complain {
+  text-decoration: none;
+  color: #000;
+}
