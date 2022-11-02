@@ -1,0 +1,20 @@
+.footer {
+  height: 100vh;
+  background-color: #fecca7;
+  text-align: center;
+  line-height: 100vh;
+}
+
+.copyright {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copyright::before {
+  content:"\00a9";
+  margin-right: 14px;
+}
