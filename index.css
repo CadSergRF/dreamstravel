@@ -1,19 +1,21 @@
+*{ outline: 1px solid red}
 .wrapper {
-  font-family: 'Yandex Sans Text';
+  font-family: 'Inter';
   font-style: normal;
   margin: 0;
   box-sizing: border-box;
+  min-width: 300px;
   max-width: 1920px;
 }
 
-.container {
-  max-width: 90%;
-  margin: 0 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 14px;
-  font-weight: 700;
+.wrapper_link-opacity {
+  opacity: 1;
+  transition: all .1s linear;
+}
+
+.wrapper_link-opacity:hover {
+  color: #fecca7;
+  opacity: .6;
 }
 
 .text-tip {
@@ -24,4 +26,17 @@
   letter-spacing: 1px;
   color: #fecca7;
   margin: 0 0 40px;
+}
+
+@media screen and (max-width: 800px){
+  .text-tip {
+    font-size: 25px;
+    color: #ffdcc2;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .intro__text-header {
+    font-size: 19px;
+  }
 }

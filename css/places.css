@@ -30,7 +30,19 @@
   flex-direction: column;
   justify-content: space-between;
   grid-area: place-text;
-  padding: 5vw 5vw 6.5vw;
+  padding: 5vw;
+}
+
+@media screen and (max-width: 1050px) {
+  .place__text {
+    padding: 3vw;
+  }
+  .place__title {
+    font-size: 30px;
+  }
+  .place__paragraph {
+    font-size: 12px;
+  }
 }
 
 .place__title {
@@ -38,17 +50,26 @@
   font-weight: 600;
   margin: 0;
 }
-
+@media screen and (max-width: 1050px) {
+  .place__title {
+    font-size: 30px;
+  }
+}
 .place__paragraph {
-  width: 32vw;
+  max-width: 440px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: 1px;
 }
+@media screen and (max-width: 1050px) {
+  .place__paragraph {
+    font-size: 13px;
+  }
+}
 
 .place__paragraph-text {
-  margin: 0 0 30px;
+  margin: 0 0 2vw;
 }
 
 .place__paragraph-text:last-of-type {

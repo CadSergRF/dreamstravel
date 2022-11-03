@@ -4,6 +4,12 @@
   padding: 11vw 0 10vw;
 }
 
+@media screen and (max-width: 800px) {
+  .quotes {
+    padding: 20px 0;
+  }
+}
+
 .quotes__title {
   max-width: 430px;
   font-size: 36px;
@@ -14,7 +20,7 @@
 .quotes-block {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 75px;
+  grid-column-gap: 5vw;
 }
 
 .quote {
