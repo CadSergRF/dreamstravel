@@ -1,4 +1,5 @@
 .places {
+  padding-top: 15px;
   width: 100%;
 }
 
@@ -17,12 +18,30 @@
     "place-text place-image";
 }
 
+@media screen and (max-width: 800px) {
+
+  .place,
+  .place:nth-of-type(2) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "place-image"
+      "place-text";
+  }
+}
+
+
 .place__image {
   width: 100%;
   height: 41vw;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   grid-area: place-image;
+}
+
+@media screen and (max-width: 800px) {
+  .place__image {
+    height: 100vw;
+  }
 }
 
 .place__text {
@@ -35,13 +54,7 @@
 
 @media screen and (max-width: 1050px) {
   .place__text {
-    padding: 3vw;
-  }
-  .place__title {
-    font-size: 30px;
-  }
-  .place__paragraph {
-    font-size: 12px;
+    padding: 3vw 3vw 5vw;
   }
 }
 
@@ -50,11 +63,14 @@
   font-weight: 600;
   margin: 0;
 }
+
 @media screen and (max-width: 1050px) {
   .place__title {
     font-size: 30px;
+    margin-bottom: 4vw;
   }
 }
+
 .place__paragraph {
   max-width: 440px;
   font-size: 14px;
@@ -62,6 +78,7 @@
   line-height: 1.4;
   letter-spacing: 1px;
 }
+
 @media screen and (max-width: 1050px) {
   .place__paragraph {
     font-size: 13px;

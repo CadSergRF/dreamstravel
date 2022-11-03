@@ -44,14 +44,14 @@
   margin: 0;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .intro__text-header {
     font-size: 41px;
     color: rgb(253, 242, 227);
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   .intro__text-header {
     font-size: 26px;
   }
@@ -63,7 +63,7 @@
   align-self: center;
   justify-self: center;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 800px) {

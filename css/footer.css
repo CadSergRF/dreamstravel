@@ -15,6 +15,6 @@
 }
 
 .copyright::before {
-  content:"\00a9";
+  content: "\00a9";
   margin-right: 14px;
 }
