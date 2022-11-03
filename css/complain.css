@@ -1,0 +1,48 @@
+.complain {
+  box-sizing: border-box;
+  background-color: gray;
+  position: absolute;
+  top: 2vh;
+  right: 0;
+  width: 40vw;
+  max-width: 600px;
+  min-height: 90vh;
+  padding-top: 40px;
+}
+
+.complain.complain__close {
+  transform: translateX(-50%);
+}
+
+.complain__close-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.complain__menu {
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+.complain__menu-item {
+  margin-bottom: 20px;
+}
+.complain__link {
+  text-decoration: none;
+}
+
+.complain__image {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}

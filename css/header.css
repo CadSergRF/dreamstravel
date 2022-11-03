@@ -8,6 +8,7 @@
   font-size: 14px;
   font-weight: 700;
   padding: 55px 0 0;
+  position: relative;
 }
 
 @media screen and (max-width: 800px) {
