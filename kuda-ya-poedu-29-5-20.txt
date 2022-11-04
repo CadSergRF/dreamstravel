@@ -34,3 +34,13 @@
 
 
 >>> © 2020
+
+
+
+  // ('.header__btn').on('click', function () {
+  //   ('.complain').removeClass('.complain__close');
+  // });
+
+  // ('.complain__close-btn').on('click', function () {
+  //   ('.complain').addClass('.complain__close');
+  // });

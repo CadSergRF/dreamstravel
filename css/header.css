@@ -1,13 +1,14 @@
 .header {
   box-sizing: border-box;
   width: 90%;
+  height: 73px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   font-size: 14px;
   font-weight: 700;
-  padding: 55px 0 0;
+  /* padding: 55px 0 0; */
   /* position: relative; */
 }
 
@@ -21,6 +22,7 @@
 @media screen and (max-width: 480px) {
   .header {
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -48,8 +50,15 @@
 .header__link {
   text-decoration: none;
   color: #000;
+  font: inherit;
 }
 
 .header__link:hover {
   opacity: .8;
+}
+
+.header__link_btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
 }
