@@ -9,7 +9,7 @@
   /* Свойство overflow: hidden; написано для всплывающего окна.  
   Если мешает проверять адаптивность - закоментить.
   Вместе с ним, необходимо закоментить блок complain в header*/
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .wrapper_link-opacity {
