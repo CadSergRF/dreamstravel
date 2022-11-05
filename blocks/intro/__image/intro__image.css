@@ -1,0 +1,9 @@
+.intro__image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: calc(100vh - 73px);
+    z-index: 1;
+  }ver;
+}

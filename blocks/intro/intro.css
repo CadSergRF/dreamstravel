@@ -1,0 +1,9 @@
+.intro {
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+  }0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,9 @@
+.footer {
+    height: 100vw;
+  }kground-color: #fecca7;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}

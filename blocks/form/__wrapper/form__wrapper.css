@@ -1,0 +1,9 @@
+.form__wrapper {
+  padding: 5px 30px 10px;
+  position: absolute;
+  left: 0;
+  top: 90px;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}

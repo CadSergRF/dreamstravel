@@ -1,0 +1,10 @@
+.complain__close-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}

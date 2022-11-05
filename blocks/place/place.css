@@ -1,0 +1,9 @@
+.place {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: -webkit-min-content;
+  grid-auto-rows: min-content;
+  grid-template-areas:
+    "place-image place-text";
+}
