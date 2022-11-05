@@ -2,19 +2,27 @@
   height: 100vh;
   background-color: #fecca7;
   text-align: center;
-  line-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
 }
 
 .copyright {
+  margin: 0;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: normal;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .copyright::before {
   content: "\00a9";
   margin-right: 14px;
+}
+
+.webdev {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
 }

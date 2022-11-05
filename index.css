@@ -1,4 +1,13 @@
 /* *{ outline: 1px solid red} */
+.hidden {
+  /* Обертка .hidden; написана для всплывающего окна.  
+  Если мешает проверять адаптивность - закоментить.
+  Вместе с ним, необходимо закоментить блок complain в header*/
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
 .wrapper {
   font-family: 'Inter';
   font-style: normal;
@@ -6,10 +15,6 @@
   box-sizing: border-box;
   min-width: 300px;
   max-width: 1920px;
-  /* Свойство overflow: hidden; написано для всплывающего окна.  
-  Если мешает проверять адаптивность - закоментить.
-  Вместе с ним, необходимо закоментить блок complain в header*/
-  overflow-x: hidden;
 }
 
 .wrapper_link-opacity {
