@@ -36,17 +36,20 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-column-gap: 40px;
 }
 
 @media screen and (max-width: 480px) {
   .menu {
-    gap: 0;
-    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0;
   }
 }
-
+@media screen {
+  
+}
 .header__link {
   text-decoration: none;
   color: #000;

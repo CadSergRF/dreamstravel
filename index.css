@@ -7,9 +7,9 @@
   min-width: 300px;
   max-width: 1920px;
   /* Свойство overflow: hidden; написано для всплывающего окна.  
-  Если мешает проверять адаптивность - заккоментить.
+  Если мешает проверять адаптивность - закоментить.
   Вместе с ним, необходимо закоментить блок complain в header*/
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .wrapper_link-opacity {
