@@ -5,156 +5,147 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./fonts/fonts.css">
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/intro.css">
-  <link rel="stylesheet" href="./css/places.css">
-  <link rel="stylesheet" href="./css/quotes.css">
-  <link rel="stylesheet" href="./css/footer.css">
-  <link rel="stylesheet" href="./css/complain.css">
-  <link rel="stylesheet" href="./css/feedback.css">
+  <link rel="stylesheet" href="./index.css">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <title>Dreams travel</title>
 </head>
 
 <body class="wrapper">
   <div class="hidden">
-  <header class="header">
-    <nav class="navigation">
-      <ul class="menu">
-        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://travel.yandex.ru/"
-            target="_blank">Мечты</a></il>
-        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://calendar.yandex.ru/"
-            target="_blank">Ожидание</a>
-        </il>
-        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://hh.ru/"
-            target="_blank">Реальность</a></il>
-      </ul>
-    </nav>
-    <button class="header__link header__link_btn wrapper_link-opacity">Пожаловаться</button>
+    <header class="header">
+      <nav class="navigation">
+        <ul class="menu">
+          <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://travel.yandex.ru/"
+              target="_blank">Мечты</a></il>
+          <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://calendar.yandex.ru/"
+              target="_blank">Ожидание</a>
+          </il>
+          <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://hh.ru/"
+              target="_blank">Реальность</a></il>
+        </ul>
+      </nav>
+      <button class="header__link header__link_btn wrapper_link-opacity">Пожаловаться</button>
 
-    <div class="complain complain__close">
-      <button class="complain__close-btn">
-        <img src="./images/close-btn.svg" alt="">
-      </button>
-      <div class="form__wrapper">
-        <form id="feedback-form" action="#" enctype="#" novalidate>
-          <div class="form">
-            <div class="form__item">
-              <label for="name">Имя</label>
-              <input id="name" type="text" name="name" value="" placeholder="moniker" minlength="2" maxlength="30"
-                required="required">
+      <div class="complain complain__close">
+        <button class="complain__close-btn">
+          <img src="./images/close-btn.svg" alt="">
+        </button>
+        <div class="form__wrapper">
+          <form id="feedback-form" action="#" enctype="#" novalidate>
+            <div class="form">
+              <div class="form__item">
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="name" value="" placeholder="moniker" minlength="2" maxlength="30"
+                  required="required">
+              </div>
+              <div class="form__item">
+                <label for="email">Email-адрес</label>
+                <input id="email" type="email" name="email" required="required" value=""
+                  placeholder="slobber@informers.ad">
+              </div>
             </div>
-            <div class="form__item">
-              <label for="email">Email-адрес</label>
-              <input id="email" type="email" name="email" required="required" value=""
-                placeholder="slobber@informers.ad">
+            <div class="feedback__area">
+              <textarea name="message" class="feedback__text" rows="5" placeholder="betrayal (не менее 20 символов)"
+                minlength="20" maxlength="500" required="required"></textarea>
+            </div>
+            <div class="form__checkbox">
+              <input type="checkbox" name="agree" id="agree" required value="true">
+              <label for="agree">Нажимая кнопку, вы понимаете и примаете то, что "на обиженных воду возят" и по факту
+                виноваты сами, но вам очень хочется кого-нибудь обвинить в своих ошибках.</label>
+            </div>
+            <button type="submit">Отправить сообщение</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="intro__text">
+          <p class="text-tip">Куда я поеду</p>
+          <h1 class="intro__text-header">Куда я&nbsp;поеду сразу, как можно будет куда&#8209;то поехать</h1>
+        </div>
+        <img class="intro__image" src="./images/intro-image.jpeg" alt="Самолет в облаках">
+      </section>
+      <section class="places">
+        <article class="place">
+          <img class="place__image" src="./images/places-forest.jpeg" alt="Мужчина смотрит на водопад в лесу">
+          <div class="place__text">
+            <h2 class="place__title">Поеду в лес</h2>
+            <div class="place__paragraph">
+              <p class="place__paragraph-text">Лес&nbsp;&mdash; экологическая система, биоценоз, в&nbsp;которой главной
+                жизненной формой являются деревья.</p>
+              <p class="place__paragraph-text">Лес&nbsp;&mdash; составная часть природы, понятие &laquo;лес&raquo; можно
+                рассматривать на&nbsp;разных уровнях. В&nbsp;глобальном масштабе&nbsp;&mdash; это часть биосферы,
+                в&nbsp;локальном&nbsp;&mdash; это может быть насаждение. Леса занимают около трети площади суши.</p>
             </div>
           </div>
-          <div class="feedback__area">
-            <textarea name="message" class="feedback__text" rows="5" placeholder="betrayal (не менее 20 символов)"
-              minlength="20" maxlength="500" required="required"></textarea>
+        </article>
+        <article class="place">
+          <img class="place__image" src="./images/places-mountains.jpeg" alt="Мужчина смотрит на заснеженную гору">
+          <div class="place__text">
+            <h2 class="place__title">Поеду в&nbsp;горы</h2>
+            <div class="place__paragraph">
+              <p class="place__paragraph-text">Горные системы занимают 64&nbsp;% поверхности Азии,
+                36&nbsp;%&nbsp;&mdash;
+                Северной Америки, 25&nbsp;%&nbsp;&mdash; Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки,
+                17&nbsp;%&nbsp;&mdash; Австралии и&nbsp;3&nbsp;%&nbsp;&mdash; Африки. В&nbsp;целом 24&nbsp;% земной
+                поверхности приходится на&nbsp;горы.&nbsp;10&nbsp;% всех людей живёт на&nbsp;территории гор.
+                В&nbsp;горах
+                берёт своё начало большинство рек Земли.</p>
+            </div>
           </div>
-          <div class="form__checkbox">
-            <input class="form-check-input" type="checkbox" name="agree" id="agree" required value="true">
-            <label for="agree">Нажимая кнопку, вы понимаете и примаете то, что "на обиженных воду возят" и по факту
-              виноваты сами, но вам очень хочется кого-нибудь обвинить в своих ошибках.</label>
+        </article>
+        <article class="place">
+          <img class="place__image" src="./images/places-black-sea.jpeg" alt="Девушка смотрит на море">
+          <div class="place__text">
+            <h2 class="place__title">Поеду на Чёрное&nbsp;море</h2>
+            <div class="place__paragraph">
+              <p class="place__paragraph-text">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда, где никто
+                раньше не&nbsp;был. Никто и&nbsp;никогда раньше не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть
+                на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо, и&nbsp;падать в&nbsp;это синее небо,
+                я&nbsp;позову.</p>
+              <p class="place__paragraph-text">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море,
+                на&nbsp;Чёрное-Чёрное море уеду&nbsp;я. Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное
+                море, на&nbsp;Чёрное-Чёрное море.</p>
+              <p class="place__paragraph-text">Уеду я.</p>
+            </div>
           </div>
-          <button type="submit">Отправить сообщение</button>
-
-        </form>
-
-      </div>
-
-
-    </div>
-  </header>
-  <main>
-    <section class="intro">
-      <div class="intro__text">
-        <p class="text-tip">Куда я поеду</p>
-        <h1 class="intro__text-header">Куда я поеду сразу, как можно будет куда-то поехать</h1>
-      </div>
-      <img class="intro__image" src="./images/intro-image.jpeg" alt="">
-    </section>
-    <section class="places">
-      <article class="place">
-        <img class="place__image" src="./images/places-forest.jpeg" alt="">
-        <div class="place__text">
-          <h2 class="place__title">Поеду в лес</h2>
-          <div class="place__paragraph">
-            <p class="place__paragraph-text">Лес&nbsp;&mdash; экологическая система, биоценоз, в&nbsp;которой главной
-              жизненной формой являются деревья.</p>
-            <p class="place__paragraph-text">Лес&nbsp;&mdash; составная часть природы, понятие &laquo;лес&raquo; можно
-              рассматривать на&nbsp;разных уровнях. В&nbsp;глобальном масштабе&nbsp;&mdash; это часть биосферы,
-              в&nbsp;локальном&nbsp;&mdash; это может быть насаждение. Леса занимают около трети площади суши.</p>
-          </div>
+        </article>
+      </section>
+      <section class="quotes">
+        <p class="text-tip">Люди</p>
+        <h2 class="quotes__title">Что говорят и говорили люди о путешествиях</h2>
+        <div class="quotes-block">
+          <blockquote class="quote">
+            <p class="quote__autor">Иван Бунин</p>
+            <p class="quote__text">Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность
+              путешествовать.</p>
+          </blockquote>
+          <blockquote class="quote">
+            <p class="quote__autor">Альбер Камю</p>
+            <p class="quote__text">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.
+            </p>
+          </blockquote>
+          <blockquote class="quote">
+            <p class="quote__autor">Норвежская пословица</p>
+            <p class="quote__text">Лишь тот, кто странствует, открывает новые пути.</p>
+          </blockquote>
+          <blockquote class="quote">
+            <p class="quote__autor">Мария Захарова</p>
+            <p class="quote__text">В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее
+              и&nbsp;очень рискованное предприятие.</p>
+          </blockquote>
         </div>
-      </article>
-      <article class="place">
-        <img class="place__image" src="./images/places-mountains.jpeg" alt="">
-        <div class="place__text">
-          <h2 class="place__title">Поеду в&nbsp;горы</h2>
-          <div class="place__paragraph">
-            <p class="place__paragraph-text">Горные системы занимают 64&nbsp;% поверхности Азии, 36&nbsp;%&nbsp;&mdash;
-              Северной Америки, 25&nbsp;%&nbsp;&mdash; Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки,
-              17&nbsp;%&nbsp;&mdash; Австралии и&nbsp;3&nbsp;%&nbsp;&mdash; Африки. В&nbsp;целом 24&nbsp;% земной
-              поверхности приходится на&nbsp;горы.&nbsp;10&nbsp;% всех людей живёт на&nbsp;территории гор. В&nbsp;горах
-              берёт своё начало большинство рек Земли.</p>
-          </div>
-        </div>
-      </article>
-      <article class="place">
-        <img class="place__image" src="./images/places-black-sea.jpeg" alt="">
-        <div class="place__text">
-          <h2 class="place__title">Поеду на Чёрное&nbsp;море</h2>
-          <div class="place__paragraph">
-            <p class="place__paragraph-text">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда, где никто
-              раньше не&nbsp;был. Никто и&nbsp;никогда раньше не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть
-              на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо, и&nbsp;падать в&nbsp;это синее небо,
-              я&nbsp;позову.</p>
-            <p class="place__paragraph-text">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море,
-              на&nbsp;Чёрное-Чёрное море уеду&nbsp;я. Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное
-              море, на&nbsp;Чёрное-Чёрное море.</p>
-            <p class="place__paragraph-text">Уеду я.</p>
-          </div>
-        </div>
-      </article>
-    </section>
-    <section class="quotes">
-      <p class="text-tip">Люди</p>
-      <h2 class="quotes__title">Что говорят и говорили люди о путешествиях</h2>
-      <div class="quotes-block">
-        <blockquote class="quote">
-          <p class="quote__autor">Иван Бунин</p>
-          <p class="quote__text">Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность
-            путешествовать.</p>
-        </blockquote>
-        <blockquote class="quote">
-          <p class="quote__autor">Альбер Камю</p>
-          <p class="quote__text">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.
-          </p>
-        </blockquote>
-        <blockquote class="quote">
-          <p class="quote__autor">Норвежская пословица</p>
-          <p class="quote__text">Лишь тот, кто странствует, открывает новые пути.</p>
-        </blockquote>
-        <blockquote class="quote">
-          <p class="quote__autor">Мария Захарова</p>
-          <p class="quote__text">В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее
-            и&nbsp;очень рискованное предприятие.</p>
-        </blockquote>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <p class="copyright">2020</p>
-    <p class="webdev">Sergey Evdokimov</p>
-    <p class="webdev">Sergey Zinchenko</p>
-  </footer>
-  <script src="./script.js"></script>
-</div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="copyright">2020</p>
+      <p class="webdev">Sergey Evdokimov</p>
+      <p class="webdev">Sergey Zinchenko</p>
+    </footer>
+    <script src="./script.js"></script>
+  </div>
 </body>
 
 </html>
