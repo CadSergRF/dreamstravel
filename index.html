@@ -22,10 +22,13 @@
   <header class="header">
     <nav class="navigation">
       <ul class="menu">
-        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://travel.yandex.ru/" target="_blank">Мечты</a></il>
-        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://calendar.yandex.ru/" target="_blank">Ожидание</a>
+        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://travel.yandex.ru/"
+            target="_blank">Мечты</a></il>
+        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://calendar.yandex.ru/"
+            target="_blank">Ожидание</a>
         </il>
-        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://hh.ru/" target="_blank">Реальность</a></il>
+        <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://hh.ru/"
+            target="_blank">Реальность</a></il>
       </ul>
     </nav>
     <button class="header__link header__link_btn wrapper_link-opacity">Пожаловаться</button>
@@ -42,33 +45,30 @@
             <!-- Имя пользователя -->
             <div class="form__item">
               <label for="name">Имя</label>
-              <input id="name" type="text" name="name" value="" placeholder="Имя" minlength="2"
-                maxlength="30" required="required">
+              <input id="name" type="text" name="name" value="" placeholder="Имя" minlength="2" maxlength="30"
+                required="required">
             </div>
             <!-- Email пользователя -->
             <div class="form__item">
               <label for="email">Email-адрес</label>
-              <input id="email" type="email" name="email" required="required" value="" placeholder="Email-адрес">
+              <input id="email" type="email" name="email" required="required" value="" placeholder="slobber@informers.ad">
             </div>
           </div>
           <!-- Сообщение пользователя -->
           <div class="feedback__area">
-            <textarea name="message" class="feedback__text" rows="5"
-              placeholder="Сообщение (не менее 20 символов)" minlength="20" maxlength="500"
-              required="required"></textarea>
-          </div>  
-          <!-- Пользовательское соглашение -->
-          <div class="form__item">
-            <input class="form-check-input" type="checkbox" name="agree" id="agree" required value="true">
-            <label for="agree">Нажимая кнопку, </label>
-          </div>  
-          <!-- Кнопка для отправки формы на сервер -->
-          <div class="form__item">
-            <button type="submit">Отправить сообщение</button>
+            <textarea name="message" class="feedback__text" rows="5" placeholder="Сообщение (не менее 20 символов)"
+              minlength="20" maxlength="500" required="required"></textarea>
           </div>
-  
-        </form>  
-      </div>  
+          <!-- Пользовательское соглашение -->
+          <div class="form__checkbox">
+            <input class="form-check-input" type="checkbox" name="agree" id="agree" required value="true">
+            <label for="agree">Нажимая кнопку, вы понимаете и примаете то, что "на обиженных воду возят" и по факту виноваты сами, но вам очень хочется кого-нибудь обвинить в своих ошибках.</label>
+          </div>
+          <!-- Кнопка для отправки формы на сервер -->
+          <button type="submit">Отправить сообщение</button>
+
+        </form>
+      </div>
     </div>
   </header>
   <main>
