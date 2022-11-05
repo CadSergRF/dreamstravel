@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -16,13 +16,15 @@
     <header class="header">
       <nav class="navigation">
         <ul class="menu">
-          <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://travel.yandex.ru/"
-              target="_blank">Мечты</a></il>
-          <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://calendar.yandex.ru/"
-              target="_blank">Ожидание</a>
-          </il>
-          <il class="menu__item"><a class="header__link wrapper_link-opacity" href="https://hh.ru/"
-              target="_blank">Реальность</a></il>
+          <li class="menu__item">
+            <a class="header__link wrapper_link-opacity" href="https://travel.yandex.ru/" target="_blank">Мечты</a>
+          </li>
+          <li class="menu__item">
+            <a class="header__link wrapper_link-opacity" href="https://calendar.yandex.ru/" target="_blank">Ожидание</a>
+          </li>
+          <li class="menu__item">
+            <a class="header__link wrapper_link-opacity" href="https://hh.ru/" target="_blank">Реальность</a>
+          </li>
         </ul>
       </nav>
       <button class="header__link header__link_btn wrapper_link-opacity">Пожаловаться</button>
@@ -32,7 +34,7 @@
           <img src="./images/close-btn.svg" alt="">
         </button>
         <div class="form__wrapper">
-          <form id="feedback-form" action="#" enctype="#" novalidate>
+          <form id="feedback-form" novalidate>
             <div class="form">
               <div class="form__item">
                 <label for="name">Имя</label>
@@ -67,7 +69,7 @@
         </div>
         <img class="intro__image" src="./images/intro-image.jpeg" alt="Самолет в облаках">
       </section>
-      <section class="places">
+      <section class="places" aria-label="Куда можно поехать">
         <article class="place">
           <img class="place__image" src="./images/places-forest.jpeg" alt="Мужчина смотрит на водопад в лесу">
           <div class="place__text">
