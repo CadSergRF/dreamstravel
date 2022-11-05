@@ -59,7 +59,9 @@
 
 .intro__image {
   width: 30vw;
+  min-width: 360px;
   height: 30vw;
+  min-height: 360px;
   align-self: center;
   justify-self: center;
   -o-object-fit: cover;
