@@ -3,3 +3,7 @@
   color: #000;
   font: inherit;
 }
+
+.header__link:hover {
+  opacity: .8;
+}

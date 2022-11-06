@@ -1,4 +1,10 @@
 .intro__text {
+  width: 100%;
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .intro__text {
     box-sizing: border-box;
     position: absolute;
     left: 0;
@@ -12,3 +18,4 @@
     justify-content: flex-end;
     padding: 10px 20px 20vh;
   }
+}

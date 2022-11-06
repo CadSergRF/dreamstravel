@@ -1,5 +1,11 @@
 .quotes {
-    padding: 40px 0 20px;
-  }o;
+  width: 90%;
+  margin: 0 auto;
   padding: 11vw 0 10vw;
+}
+
+@media screen and (max-width: 800px) {
+  .quotes {
+    padding: 40px 0 20px;
+  }
 }

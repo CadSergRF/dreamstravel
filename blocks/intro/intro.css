@@ -1,9 +1,17 @@
 .intro {
+  box-sizing: border-box;
+  height: calc(100vh - 73px);
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
     width: 100%;
     display: flex;
     position: relative;
     z-index: 1;
-  }0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  }
 }

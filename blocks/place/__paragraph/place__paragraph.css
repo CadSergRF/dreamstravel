@@ -1,3 +1,13 @@
 .place__paragraph {
+  max-width: 440px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1050px) {
+  .place__paragraph {
     font-size: 13px;
   }
+}

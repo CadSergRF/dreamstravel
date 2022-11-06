@@ -2,3 +2,8 @@
   opacity: 1;
   transition: all .1s linear;
 }
+
+.wrapper_link-opacity:hover {
+  color: #fecca7;
+  opacity: .6;
+}

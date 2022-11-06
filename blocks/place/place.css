@@ -7,3 +7,18 @@
   grid-template-areas:
     "place-image place-text";
 }
+
+.place:nth-of-type(2) {
+  grid-template-areas:
+    "place-text place-image";
+}
+
+@media screen and (max-width: 800px) {
+  .place,
+  .place:nth-of-type(2) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "place-image"
+      "place-text";
+  }
+}

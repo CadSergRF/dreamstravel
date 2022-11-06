@@ -5,3 +5,8 @@
   text-transform: uppercase;
   line-height: normal;
 }
+
+.copyright::before {
+  content: "\00a9";
+  margin-right: 14px;
+}

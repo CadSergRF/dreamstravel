@@ -1,4 +1,12 @@
 .quotes-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 5vw;
+}
+
+@media screen and (max-width: 800px) {
+  .quotes-block {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px 20px;
   }
+}

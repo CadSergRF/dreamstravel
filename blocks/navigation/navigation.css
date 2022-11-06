@@ -1,3 +1,5 @@
-.navigation {
+@media screen and (max-width: 480px) {
+  .navigation {
     width: 100%;
   }
+}

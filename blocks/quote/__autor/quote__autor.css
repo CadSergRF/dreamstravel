@@ -1,3 +1,16 @@
 .quote__autor {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  margin: 0 0 33px;
+}
+
+@media screen and (max-width: 800px) {
+  .quote__autor {
     margin-bottom: 12px;
   }
+}

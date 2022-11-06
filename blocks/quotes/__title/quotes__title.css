@@ -1,4 +1,13 @@
 .quotes__title {
+  max-width: 430px;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 10vw;
+}
+
+@media screen and (max-width: 480px) {
+  .quotes__title {
     font-size: 26px;
     margin-bottom: 40px;
   }
+}

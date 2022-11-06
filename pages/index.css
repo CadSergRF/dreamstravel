@@ -1,0 +1,55 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/hidden/hidden.css);
+
+@import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/wrapper/_link-opacity/wrapper_link-opacity.css);
+@import url(../blocks/text-tip/text-tip.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/header/__link/_btn/header__link_btn.css);
+
+@import url(../blocks/complain/complain.css);
+@import url(../blocks/complain/__close/complain__close.css);
+@import url(../blocks/complain/__close-btn/complain__close-btn.css);
+@import url(../blocks/complain/__menu/complain__menu.css);
+@import url(../blocks/complain/__menu-item/complain__menu-item.css);
+@import url(../blocks/complain/__link/complain__link.css);
+@import url(../blocks/complain/__image/complain__image.css);
+
+@import url(../blocks/form/__wrapper/form__wrapper.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/feedback/__area/feedback__area.css);
+@import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__text-header/intro__text-header.css);
+@import url(../blocks/intro/__image/intro__image.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph-text/place__paragraph-text.css);
+
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__title/quotes__title.css);
+@import url(../blocks/quotes-block/quotes-block.css);
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__autor/quote__autor.css);
+@import url(../blocks/quote/__text/quote__text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/copyright/copyright.css);
+@import url(../blocks/webdev/webdev.css);

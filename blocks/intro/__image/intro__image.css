@@ -1,9 +1,26 @@
 .intro__image {
+  width: 30vw;
+  height: 30vw;
+  align-self: center;
+  justify-self: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 801px) {
+  .intro__image {
+    min-width: 360px;
+    min-height: 360px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro__image {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     height: calc(100vh - 73px);
     z-index: 1;
-  }ver;
+  }
 }

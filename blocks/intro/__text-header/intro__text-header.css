@@ -1,4 +1,18 @@
 .intro__text-header {
-    font-size: 26px;
-  } color: rgb(253, 242, 227);
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .intro__text-header {
+    font-size: 41px;
+    color: rgb(253, 242, 227);
   }
+}
+
+@media screen and (max-width: 480px) {
+  .intro__text-header {
+    font-size: 26px;
+  }
+}

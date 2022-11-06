@@ -7,3 +7,10 @@
   grid-template-columns: repeat(3, min-content);
   grid-column-gap: 40px;
 }
+
+@media screen and (max-width: 480px) {
+  .menu {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0;
+  }
+}
