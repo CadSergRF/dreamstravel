@@ -11,10 +11,10 @@
 
 HTML-разметка и фаловая структура сделана на основе БЭМ.
 
-* [Ссылка Github pages] (https://cadsergrf.github.io/dreamstravel/)
-* [Репозиторий Github] (https://github.com/CadSergRF/dreamstravel)
+* [Ссылка Github pages](https://cadsergrf.github.io/dreamstravel/)
+* [Репозиторий Github](https://github.com/CadSergRF/dreamstravel)
 * [SSH проекта] (git@github.com:CadSergRF/dreamstravel.git)
 
 ToDo:
 1. Доработать форму обратной связи. Подключить обработчики событий.
-2. Провести эксперимент с "резиновым шриштом".
+2. Провести эксперимент с "резиновым шрифтом".
