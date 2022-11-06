@@ -1,6 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
+  /* Обертка .hidden; написана для всплывающего окна.  
+  Если мешает проверять адаптивность - закоментить.
+  Вместе с ним, необходимо закоментить блок complain в header*/
 @import url(../blocks/hidden/hidden.css);
 
 @import url(../blocks/wrapper/wrapper.css);
@@ -14,7 +16,7 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/header/__link/_btn/header__link_btn.css);
-
+/* Popup окно */
 @import url(../blocks/complain/complain.css);
 @import url(../blocks/complain/__close/complain__close.css);
 @import url(../blocks/complain/__close-btn/complain__close-btn.css);
